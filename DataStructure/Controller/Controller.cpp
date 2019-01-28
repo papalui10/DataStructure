@@ -7,3 +7,13 @@
 //
 
 #include "Controller.hpp"
+
+Controller :: Controller()
+{
+    this->specialNumber = 123456;
+}
+
+void Controller :: start()
+{
+    cout << "Welcome to the Data Structures App." << endl;
+}
