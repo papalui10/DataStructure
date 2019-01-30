@@ -6,8 +6,8 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef Array_h
-#define Array_h
+#ifndef Array_hpp
+#define Array_hpp
 
 #include <assert.h> //Used for validating user supplied data.
 #include <iostream> //Used for tracing and debug statements.
@@ -39,6 +39,38 @@ public:
     Type getFromIndex(int index);
     void setAtIndex(int index, Type data);
 };
+
+//template definitions
+template <class Type>
+Array<Type> :: Array(int size)
+{
+    assert(size > 0);
+    this->size = size;
+    
+    internalArray = new Type[size];
+}
+
+template <class Type>
+Array<Type> :: Array(const Array<Type> & toCopy)
+{
+    this->size = toCopy.getSize();
+    
+    //Build Data Structure
+    internalArray = new Type[size];
+    
+    for(int index = 0; index < size; index++)
+    {
+        internalArray[index] = toCopy[index];
+    }
+}
+
+template <class Type>
+Array<Type> :: ~Array()
+{
+    delete [] internalArray;
+}
+
+
 
 
 #endif /* Array_h */
