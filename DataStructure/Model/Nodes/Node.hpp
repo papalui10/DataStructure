@@ -6,8 +6,8 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef Node_h
-#define Node_h
+#ifndef Node_hpp
+#define Node_hpp
 //alwyas #include as early and basic as possible.
 #include <assert.h>
 
