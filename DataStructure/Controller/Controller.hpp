@@ -10,14 +10,15 @@
 #define Controller_hpp
 
 #include <iostream>
+#include "../Model/Nodes/Node.hpp"
+
 using namespace std;
 
 class Controller
 {
 private:
-    int specialNumber;
+    void usingNodes();
 public:
-    Controller();
     void start();
 };
 
