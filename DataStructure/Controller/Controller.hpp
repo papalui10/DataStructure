@@ -12,6 +12,7 @@
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
 #include "../Model/Nodes/LinearNode.hpp"
+#include "../Model/Linear/Array.hpp"
 
 using namespace std;
 
