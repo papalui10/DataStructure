@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3887452204E3CB00852616 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3887432204E3CB00852616 /* FileController.cpp */; };
 		BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D35A21FF8D8500B21878 /* Controller.cpp */; };
 		BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D36021FF8DA600B21878 /* Runner.cpp */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		BF3887422204D47400852616 /* ABCList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ABCList.hpp; sourceTree = "<group>"; };
+		BF3887432204E3CB00852616 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		BF3887442204E3CB00852616 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 		BF4A3A5A220232D400D3E130 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		BF4A3A5B220239E400D3E130 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		BF66D34C21FF8D1900B21878 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +99,8 @@
 				BF66D35A21FF8D8500B21878 /* Controller.cpp */,
 				BF66D35B21FF8D8500B21878 /* Controller.hpp */,
 				BF66D36021FF8DA600B21878 /* Runner.cpp */,
+				BF3887432204E3CB00852616 /* FileController.cpp */,
+				BF3887442204E3CB00852616 /* FileController.hpp */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			files = (
 				BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */,
 				BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */,
+				BF3887452204E3CB00852616 /* FileController.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
