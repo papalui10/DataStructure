@@ -10,6 +10,7 @@
 		BF3887452204E3CB00852616 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3887432204E3CB00852616 /* FileController.cpp */; };
 		BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D35A21FF8D8500B21878 /* Controller.cpp */; };
 		BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D36021FF8DA600B21878 /* Runner.cpp */; };
+		BFEB88D8220A14D2009908AC /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEB88D6220A14D2009908AC /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		BF66D35B21FF8D8500B21878 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		BF66D36021FF8DA600B21878 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		BF66D36221FF912A00B21878 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		BFEB88D6220A14D2009908AC /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		BFEB88D7220A14D2009908AC /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		BF66D35621FF8D2200B21878 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFEB88D5220A14B2009908AC /* Tools */,
 				BF66D35A21FF8D8500B21878 /* Controller.cpp */,
 				BF66D35B21FF8D8500B21878 /* Controller.hpp */,
 				BF66D36021FF8DA600B21878 /* Runner.cpp */,
@@ -126,6 +130,15 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		BFEB88D5220A14B2009908AC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB88D6220A14D2009908AC /* Timer.cpp */,
+				BFEB88D7220A14D2009908AC /* Timer.hpp */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +200,7 @@
 				BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */,
 				BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */,
 				BF3887452204E3CB00852616 /* FileController.cpp in Sources */,
+				BFEB88D8220A14D2009908AC /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
