@@ -20,7 +20,7 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
     if (dataFile.is_open())
     {
         //Keep reading until you are at the end of the file.
-        while (!datFile.eof())
+        while (!dataFile.eof())
         {
             //Grab each line from the CSV separated by the carriage return chracter.
             getline(dataFile, currentCSVLine, '\r');
@@ -30,13 +30,13 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
                 //Create a CrimeData instance from the line. Exclude a blank line (usually if opened separately)
                 if(currentCSVLine.length() != 0)
                 {
-                    CrimeData row(CurrentSCVLine);
+                    CrimeData row(currentCSdVLine);
                     crimeVector.push_back(row);
                 }
             }
             rowCount++;
         }
-        datFile.close();
+        dataFile.close();
     }
     else
     {

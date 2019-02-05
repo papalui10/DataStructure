@@ -11,6 +11,8 @@
 		BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D35A21FF8D8500B21878 /* Controller.cpp */; };
 		BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D36021FF8DA600B21878 /* Runner.cpp */; };
 		BFEB88D8220A14D2009908AC /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEB88D6220A14D2009908AC /* Timer.cpp */; };
+		BFEB88DD220A2422009908AC /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEB88DA220A2422009908AC /* CrimeData.cpp */; };
+		BFEB88DE220A2422009908AC /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFEB88DC220A2422009908AC /* Music.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,10 @@
 		BF66D36221FF912A00B21878 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		BFEB88D6220A14D2009908AC /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		BFEB88D7220A14D2009908AC /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		BFEB88D9220A2422009908AC /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		BFEB88DA220A2422009908AC /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		BFEB88DB220A2422009908AC /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		BFEB88DC220A2422009908AC /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,10 @@
 		BF66D35921FF8D7300B21878 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BFEB88DA220A2422009908AC /* CrimeData.cpp */,
+				BFEB88DB220A2422009908AC /* CrimeData.hpp */,
+				BFEB88DC220A2422009908AC /* Music.cpp */,
+				BFEB88D9220A2422009908AC /* Music.hpp */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -198,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */,
+				BFEB88DD220A2422009908AC /* CrimeData.cpp in Sources */,
 				BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */,
+				BFEB88DE220A2422009908AC /* Music.cpp in Sources */,
 				BF3887452204E3CB00852616 /* FileController.cpp in Sources */,
 				BFEB88D8220A14D2009908AC /* Timer.cpp in Sources */,
 			);
