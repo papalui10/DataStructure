@@ -13,6 +13,8 @@
 #include "../Model/Nodes/Node.hpp"
 #include "../Model/Nodes/LinearNode.hpp"
 #include "../Model/Linear/Array.hpp"
+#include "../Controller/FileController.hpp"
+#include "FileController.hpp"
 
 using namespace std;
 
@@ -20,8 +22,11 @@ class Controller
 {
 private:
     void usingNodes();
+    void testFiles();
 public:
     void start();
 };
+
+
 
 #endif /* Controller_hpp */

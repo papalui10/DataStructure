@@ -30,7 +30,7 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
                 //Create a CrimeData instance from the line. Exclude a blank line (usually if opened separately)
                 if(currentCSVLine.length() != 0)
                 {
-                    CrimeData row(currentCSdVLine);
+                    CrimeData row(currentCSVLine);
                     crimeVector.push_back(row);
                 }
             }

@@ -25,7 +25,6 @@ Music :: Music(string data)
     getline(parseCSV, bars_confidence, ',');
     getline(parseCSV, bars_start, ',');
     getline(parseCSV, beats_confidence, ',');
-    getline(parseCSV, beats_confidence, ',');
     getline(parseCSV, beats_start, ',');
     getline(parseCSV, duration, ',');
     getline(parseCSV, end_of_fade_in, ',');
@@ -78,7 +77,7 @@ Music :: Music(string data)
     this->release_name = release_name;
     this->similar = similar;
     this->song_hotttnesss = (stod(song_hotttnesss));
-    this->song_id = (stoi(song_id));
+    this->song_id = (song_id);
     this->start_of_fade_out = (stod(start_of_fade_out));
     this->tatums_confidence = (stod(tatums_confidence));
     this->tatums_start = (stod(tatums_start));
