@@ -32,7 +32,7 @@ void Controller :: testFiles()
 
     for(int index = 234; index <= 255; index++)
     {
-        cout<< index <<" : contewsnts are : " << tunes[index]<<endl;
+        cout<< index <<" : contents are : " << tunes[index]<<endl;
     }
     
 }

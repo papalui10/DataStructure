@@ -40,6 +40,7 @@
 		BF66D36221FF912A00B21878 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		BF721DBB220CB96600E02676 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		BF721DBD220CB98000E02676 /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		BF721DC0220CC6A000E02676 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		BFEB88D6220A14D2009908AC /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		BFEB88D7220A14D2009908AC /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		BFEB88DA220A2422009908AC /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 			children = (
 				BF4A3A5B220239E400D3E130 /* Array.hpp */,
 				BF3887422204D47400852616 /* List.hpp */,
+				BF721DC0220CC6A000E02676 /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
