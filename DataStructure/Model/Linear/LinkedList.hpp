@@ -9,6 +9,7 @@
 
 #include "List.hpp"
 
+
 using namespace std; //Used for keyword access. Use this to make sure pointers are pointing to the right things.
 
 #ifndef LinkedList_hpp
@@ -38,7 +39,8 @@ public:
     Type getFromIndex(int index);
     Type remove(int index);
     //Type setAtIndex(int index, Type item);
-    //bool contains(Type item);
+    bool contains(Type item);
+};
 
     template <class Type>
     LinkedList<Type> :: Linkedlist()
@@ -128,7 +130,26 @@ public:
         
         return data;
     }
+
+template <class Type>
+bool LinkedList<Type> :: contains(Type thingToFind)
+{
+    bool exists = false;
     
+    LinearNode<Type> * searchPointer = front;
+    
+    for (int index = 0; index < getSize(); index++)
+    {
+        if (searchPointer->getData() == thingToFind)
+        {
+            return true;
+        }
+        searchPointer = searchPointer->getNextNode();
+    }
+    
+    return exists;
+}
+
     template <class Type>
     Type LinkedList<Type> :: remove(int index)
     {
@@ -190,7 +211,6 @@ public:
     {
         return this->size;
     }
-};
 
 
 #endif /* LinkedList_hpp */
