@@ -23,9 +23,9 @@ class Controller
 {
 private:
     void usingNodes();
-    void testFiles();
 public:
     void start();
+    void testFiles();
 };
 
 

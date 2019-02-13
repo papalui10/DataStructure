@@ -9,6 +9,8 @@
 #ifndef Array_hpp
 #define Array_hpp
 
+#include "Array.hpp"
+
 #include <assert.h> //Used for validating user supplied data.
 #include <iostream> //Used for tracing and debug statements.
 

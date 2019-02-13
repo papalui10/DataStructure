@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF3887452204E3CB00852616 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3887432204E3CB00852616 /* FileController.cpp */; };
+		BF4576A42214AE9900FAFB7D /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4576A22214AE9900FAFB7D /* LinearTester.cpp */; };
 		BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D35A21FF8D8500B21878 /* Controller.cpp */; };
 		BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D36021FF8DA600B21878 /* Runner.cpp */; };
 		BF721DBC220CB96600E02676 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF721DBB220CB96600E02676 /* Music.cpp */; };
@@ -31,6 +32,8 @@
 		BF3887422204D47400852616 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		BF3887432204E3CB00852616 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		BF3887442204E3CB00852616 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
+		BF4576A22214AE9900FAFB7D /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
+		BF4576A32214AE9900FAFB7D /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		BF4A3A5A220232D400D3E130 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		BF4A3A5B220239E400D3E130 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		BF542CA32212007F00CE6962 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
@@ -61,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF4576A12214AE5D00FAFB7D /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				BF4576A22214AE9900FAFB7D /* LinearTester.cpp */,
+				BF4576A32214AE9900FAFB7D /* LinearTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		BF4A3A582202268000D3E130 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 		BF66D34321FF8D1900B21878 = {
 			isa = PBXGroup;
 			children = (
+				BF4576A12214AE5D00FAFB7D /* Testers */,
 				BF66D34E21FF8D1900B21878 /* DataStructure */,
 				BF66D34D21FF8D1900B21878 /* Products */,
 			);
@@ -221,6 +234,7 @@
 				BF721DBC220CB96600E02676 /* Music.cpp in Sources */,
 				BF3887452204E3CB00852616 /* FileController.cpp in Sources */,
 				BFEB88D8220A14D2009908AC /* Timer.cpp in Sources */,
+				BF4576A42214AE9900FAFB7D /* LinearTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

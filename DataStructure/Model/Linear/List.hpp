@@ -9,6 +9,7 @@
 #ifndef List_hpp
 #define List_hpp
 
+#include <assert.h>
 #include "../Nodes/LinearNode.hpp"
 
 using namespace std;
