@@ -123,3 +123,42 @@ LinkedList<CrimeData> FileController :: readDataToList(string filename)
     
     return crimes;
 }
+
+LinkedList<Music> FileController :: readDataToList(string filename)
+{
+    LinkedList<Music> musicList;
+    
+    string currentCSVLine;
+    int rowCout = 0;
+    
+    ifstream dataFile(fileName);
+    
+    //If the file exists at that path.
+    if(dataFile.is_open())
+    {
+        //Keep reading until you are at the end of the file.
+        while (!dataFile.eof())
+        {
+            //Grab each line from the CSV separated by the carriage return character.
+            getline(dataFile, currentCSVLine, '\r');
+            //Exclude header row
+            if(rowCout != 0)
+            {
+                //Create a CrimeData instance from the line. Exclude a blank line (usually if opened separately)
+                if(currentCSVLine.length() != 0)
+                {
+                    Music row(currentCSVLine);
+                    musicList.add(row);
+                }
+            }
+            rowCout++;
+        }
+        dataFile.close();
+    }
+    else
+    {
+        cerr << "NO FILE" << endl;
+    }
+    
+    return musicList;
+}
