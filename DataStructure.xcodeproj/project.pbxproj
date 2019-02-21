@@ -40,6 +40,7 @@
 		BF542CA32212007F00CE6962 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		BF542CA422120EC100CE6962 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		BF542CA52212130D00CE6962 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		BF5FD9BD221F290F001F2561 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		BF66D34C21FF8D1900B21878 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF66D35A21FF8D8500B21878 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		BF66D35B21FF8D8500B21878 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			children = (
 				BF66D36221FF912A00B21878 /* Node.hpp */,
 				BF4A3A5A220232D400D3E130 /* LinearNode.hpp */,
+				BF5FD9BD221F290F001F2561 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
