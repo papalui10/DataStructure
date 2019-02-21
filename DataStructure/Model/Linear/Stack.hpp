@@ -31,7 +31,7 @@ public:
 };
 
 template <class Type>
-Stack<Type> :; Stack() : LinkedList<Type>()
+Stack<Type> :: Stack() : LinkedList<Type>()
 {
     //Empty
 }
@@ -83,7 +83,7 @@ Type Stack<Type> :: pop()
     Type removed = this->front->getData();
     
     LinearNode<Type> * removedNode = this->getFront();
-    ths->front = removedNode->getNextNode();
+    this->front = removedNode->getNextNode();
     delete removedNode;
     
     this->size--;

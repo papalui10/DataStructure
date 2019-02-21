@@ -98,7 +98,6 @@
 		BF66D34321FF8D1900B21878 = {
 			isa = PBXGroup;
 			children = (
-				BF4576A12214AE5D00FAFB7D /* Testers */,
 				BF66D34E21FF8D1900B21878 /* DataStructure */,
 				BF66D34D21FF8D1900B21878 /* Products */,
 			);
@@ -115,6 +114,7 @@
 		BF66D34E21FF8D1900B21878 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				BF4576A12214AE5D00FAFB7D /* Testers */,
 				BF66D35921FF8D7300B21878 /* Resources */,
 				BF66D35821FF8D3B00B21878 /* Diagrams */,
 				BF66D35721FF8D3200B21878 /* Model */,

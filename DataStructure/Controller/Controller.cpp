@@ -13,6 +13,7 @@ void Controller :: start()
     cout << "Welcome to the Data Structures App." << endl;
     usingNodes();
     testFiles();
+    testLinear();
 }
 
 void Controller :: usingNodes()
@@ -35,5 +36,11 @@ void Controller :: testFiles()
         cout<< index <<" : contents are : " << tunes[index]<<endl;
     }
     
+}
+
+void Controller :: testLinear()
+{
+    LinearTester lookieHere;
+    lookieHere.testVsSTL();
 }
 

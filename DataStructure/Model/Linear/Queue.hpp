@@ -66,7 +66,6 @@ void Queue<Type> :: enqueue(Type item)
 
     this->end = added;
     this->size++;
-    }
 }
 
 template <class Type>
@@ -105,7 +104,7 @@ void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
-        cout <, dequeue() << endl;
+        cout < dequeue() << endl;
     }
 }
 

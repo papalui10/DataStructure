@@ -43,6 +43,7 @@ private:
     
 public:
     CrimeData(string dataLine);
+    CrimeData();
     
     string getDepartment() const;
     int getPopulation() const;

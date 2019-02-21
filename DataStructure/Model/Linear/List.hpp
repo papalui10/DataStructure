@@ -14,7 +14,7 @@
 
 using namespace std;
 
-template <class type>
+template <class Type>
 class List
 {
 protected:
@@ -24,11 +24,11 @@ public:
     virtual void add(Type item) = 0;
     virtual void addAtIndex(int index, Type item) = 0;
     virtual Type remove(int index) = 0;
-    virtual Type getFromIndex(int index) =;
+    virtual Type getFromIndex(int index) = 0;
     //Helper
     virtual int getSize() const = 0;
     virtual LinearNode<Type> * getFrone() = 0;
-    virtual LInearNode<Type> * getEnd() =0;`
+    virtual LinearNode<Type> * getEnd() =0;
 };
 
 

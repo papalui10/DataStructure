@@ -6,8 +6,9 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-
+#include <iostream>
 #include "List.hpp"
+#include <assert.h>
 
 
 using namespace std; //Used for keyword access. Use this to make sure pointers are pointing to the right things.
@@ -43,7 +44,7 @@ public:
 };
 
     template <class Type>
-    LinkedList<Type> :: Linkedlist()
+    LinkedList<Type> :: LinkedList()
     {
         this->front = nullptr;
         this->end = nullptr;
@@ -63,7 +64,7 @@ public:
     }
     
     template <class Type>
-    void Linked List<Type> :: add(Type item)
+    void LinkedList<Type> :: add(Type item)
     {
         LinearNode<Type> * newData = new LinearNode<Type>(item);
         
@@ -91,7 +92,7 @@ public:
         }
         else
         {
-            LienarNode<Type> * toBeAdded = new LinearNode<Type>(item);
+            LinearNode<Type> * toBeAdded = new LinearNode<Type>(item);
             if (index == 0)
             {
                 toBeAdded->setNextNode(front);
@@ -114,7 +115,7 @@ public:
     }
     
     template <class Type>
-    Type LinkedList<Type> :; getFromIndex(int index)
+Type LinkedList<Type> :: getFromIndex(int index)
     {
         assert(index >= 0 && index < this->size);
         Type data;
@@ -201,13 +202,13 @@ bool LinkedList<Type> :: contains(Type thingToFind)
     }
     
     template<class Type>
-    LinearNode<Type> * LinkedList<Type> :; getFront()
+    LinearNode<Type> * LinkedList<Type> :: getFront()
     {
         return this->Front;
     }
     
     template<class Type>
-    int LinkedList<Type> :; getSize() const
+    int LinkedList<Type> :: getSize() const
     {
         return this->size;
     }
