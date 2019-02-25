@@ -24,7 +24,7 @@ void LinearTester :: testVsSTL()
     crimeTimerSTL.displayInformation();
     cout << "This is the OOP Node Read time: " << endl;
     crimeTimerOOP.displayInformation();
-    cout << "A different of: " << crimeTimerOOP.getTimerInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" >> endl;
+    cout << "A different of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
     
     
     musicSTL.startTimer();

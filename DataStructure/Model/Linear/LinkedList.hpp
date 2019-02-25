@@ -204,7 +204,7 @@ bool LinkedList<Type> :: contains(Type thingToFind)
     template<class Type>
     LinearNode<Type> * LinkedList<Type> :: getFront()
     {
-        return this->Front;
+        return this->front;
     }
     
     template<class Type>

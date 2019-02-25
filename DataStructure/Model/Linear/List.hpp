@@ -27,7 +27,7 @@ public:
     virtual Type getFromIndex(int index) = 0;
     //Helper
     virtual int getSize() const = 0;
-    virtual LinearNode<Type> * getFrone() = 0;
+    virtual LinearNode<Type> * getFront() = 0;
     virtual LinearNode<Type> * getEnd() =0;
 };
 

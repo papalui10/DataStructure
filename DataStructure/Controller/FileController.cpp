@@ -85,7 +85,7 @@ vector<Music> FileController :: musicDataToVector(string filename)
     
 }
 
-LinkedList<CrimeData> FileController :: readDataToList(string filename)
+LinkedList<CrimeData> FileController :: readDataToList(string fileName)
 {
     LinkedList<CrimeData> crimes;
     
@@ -124,7 +124,7 @@ LinkedList<CrimeData> FileController :: readDataToList(string filename)
     return crimes;
 }
 
-LinkedList<Music> FileController :: readDataToList(string filename)
+LinkedList<Music> FileController :: musicDataToList(string fileName)
 {
     LinkedList<Music> musicList;
     
