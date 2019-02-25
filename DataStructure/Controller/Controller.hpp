@@ -18,6 +18,7 @@
 #include "../Testers/LinearTester.hpp"
 
 
+
 using namespace std;
 
 class Controller
@@ -28,6 +29,7 @@ private:
     void testFiles();
 public:
     void start();
+    void testLinearTester();
 };
 
 
