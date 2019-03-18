@@ -82,7 +82,36 @@ void LinearTester :: testVsSTL()
 
 void LinearTester :: testVsStack()
 {
+    Timer crimeTimerStack, crimeTimerOOP, musicStack, musicOOP;
     
+    crimeTimerStack.startTimer();
+    vector<CrimeData> crimes = FileController :: readCrimeDataToVector("/Users/lvel8903/Documents/C++ Projects/DataStructure/DataStructure/Resources/crime.csv");
+    crimeTimerStack.stopTimer();
+    
+    crimeTimerOOP.startTimer();
+    LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/lvel8903/Documents/C++ Projects/DataStructure/DataStructure/Resources/crime.csv");
+    crimeTimerOOP.stopTimer();
+    
+    cout << "This is the Stack Read time: " << endl;
+    crimeTimerStack.displayInformation();
+    cout << "This is the OOP Node Read time: " << endl;
+    crimeTimerOOP.displayInformation();
+    cout << "A different of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerStack.getTimeInMicroseconds() << " microseconds" << endl;
+    
+    
+    musicStack.startTimer();
+    vector<Music> tunes = FileController :: musicDataToVector("/Users/lvel8903/Documents/C++ Projects/DataStructure/DataStructure/Resources/music.csv");
+    musicStack.stopTimer();
+    
+    musicOOP.startTimer();
+    LinkedList<Music> musicList = FileController :: musicDataToList("/Users/lvel8903/Documents/C++ Projects/DataStructure/DataStructure/Resources/music.csv");
+    musicOOP.stopTimer();
+    
+    cout << "This is the Stack Read time: " << endl;
+    musicStack.displayInformation();
+    cout << "This is the OOP Node Read time: " << endl;
+    musicOOP.displayInformation();
+    cout << "A different of: " << crimeTimerOOP.getTimeInMicroseconds() - musicStack.getTimeInMicroseconds() << " microseconds" << endl;
 }
 
 
