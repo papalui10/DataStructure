@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF00390D22611FA300B7F6CE /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF00390C22611FA300B7F6CE /* BinaryTreeTester.cpp */; };
 		BF3887452204E3CB00852616 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3887432204E3CB00852616 /* FileController.cpp */; };
 		BF4576A42214AE9900FAFB7D /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4576A22214AE9900FAFB7D /* LinearTester.cpp */; };
 		BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF66D35A21FF8D8500B21878 /* Controller.cpp */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		BF00390A22610ED300B7F6CE /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		BF00390B22611F2700B7F6CE /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		BF00390C22611FA300B7F6CE /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
 		BF3887422204D47400852616 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		BF3887432204E3CB00852616 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		BF3887442204E3CB00852616 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 		BF4576A12214AE5D00FAFB7D /* Testers */ = {
 			isa = PBXGroup;
 			children = (
+				BF00390B22611F2700B7F6CE /* BinaryTreeTester.hpp */,
+				BF00390C22611FA300B7F6CE /* BinaryTreeTester.cpp */,
 				BF4576A22214AE9900FAFB7D /* LinearTester.cpp */,
 				BF4576A32214AE9900FAFB7D /* LinearTester.hpp */,
 				BF74DA01224011C600960117 /* GraphTester.cpp */,
@@ -253,6 +258,7 @@
 			files = (
 				BF66D35C21FF8D8500B21878 /* Controller.cpp in Sources */,
 				BF74DA03224011C600960117 /* GraphTester.cpp in Sources */,
+				BF00390D22611FA300B7F6CE /* BinaryTreeTester.cpp in Sources */,
 				BFEB88DD220A2422009908AC /* CrimeData.cpp in Sources */,
 				BF66D36121FF8DA600B21878 /* Runner.cpp in Sources */,
 				BF721DBC220CB96600E02676 /* Music.cpp in Sources */,
