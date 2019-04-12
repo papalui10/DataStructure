@@ -12,6 +12,7 @@
 #include "../Nodes/DoubleNode.hpp"
 
 template <class Type>
+class CirculateList : public Node<Type>
 {
 private:
     DoubleNode<Type> * front;

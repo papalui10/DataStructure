@@ -8,6 +8,13 @@
 
 #include "GraphTester.hpp"
 
+void GraphTester:: testGraphs()
+{
+    setup();
+    compareTraversals();
+    findCheapestTraversal();
+}
+
 void GraphTester :: compareTraversals()
 {
     for(int index  = 0; index < puzzle.size(); index++)
@@ -16,6 +23,8 @@ void GraphTester :: compareTraversals()
         puzzle.breadthFirstTraversal(puzzle.size(); index++)
         cout << "Depth Index: " << index << endl;
         puzzle.depthFirstTraversal(puzzle, index);
+        cout << "Cheapest non-zero traversal : " << index << endl;
+        puzzle.costTraversal(puzzle, index);
     }
 }
 

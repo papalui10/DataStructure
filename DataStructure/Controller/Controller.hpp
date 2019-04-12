@@ -17,6 +17,10 @@
 #include "FileController.hpp"
 #include "../Testers/LinearTester.hpp"
 
+#include "../Model/Nodes/CircularList.hpp"
+
+#include "../Testers/GraphTester.hpp"
+
 
 
 using namespace std;
@@ -26,10 +30,13 @@ class Controller
 private:
     void usingNodes();
     void testLinear();
-    void testFiles();
 public:
     void start();
+    void testFiles();
+    void testLinkedList();
     void testLinearTester();
+    void testCircularList();
+    void testGraphTester();
 };
 
 
