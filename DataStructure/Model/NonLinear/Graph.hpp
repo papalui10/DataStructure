@@ -9,11 +9,13 @@
 #ifndef Graph_h
 #define Graph_h
 
+#include <iostream>
 #include <set>
 #include <queue>
 #include <assert.h>
 
 using namespace std;
+
 template <class Type>
 class Graph
 {
@@ -186,7 +188,7 @@ std::set<int> Graph<Type> :: neighbors(int vertex) const
     {
         if(adjacencyMatrix[vertex][index])
         {
-            vertexNeighborsInsert(index);
+            vertexNeighbors.insert(index);
         }
     }
     
@@ -242,9 +244,12 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraphy, int verte
         
         for(setIterator = connections.begin(); setIterator != connections.end(); setIterator++)
         {
-            if(!visited[*setIterator]) = true;
-            count << currentGraphy[*setIterator] << end;
-            vertexQueue.push(*setIterator);
+            if(!visited[*setIterator])
+            {
+                visited[*setIterator] = true;
+                cout << currentGraphy[*setIterator] << endl;
+                vertexQueue.push(*setIterator);
+            }
         }
     }
 }

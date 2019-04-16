@@ -11,6 +11,7 @@
 
 #include "../Model/Nodes/BinaryTreeNode.hpp"
 #include "../Model/NonLinear/BinarySearchTree.hpp"
+#include <iostream>
 
 
 class BinaryTreeTester

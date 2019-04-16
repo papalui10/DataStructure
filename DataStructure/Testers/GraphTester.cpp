@@ -20,7 +20,7 @@ void GraphTester :: compareTraversals()
     for(int index  = 0; index < puzzle.size(); index++)
     {
         cout << "Breadth Index: " << index << endl;
-        puzzle.breadthFirstTraversal(puzzle.size(); index++)
+        puzzle.breadthFirstTraversal(puzzle, index);
         cout << "Depth Index: " << index << endl;
         puzzle.depthFirstTraversal(puzzle, index);
         cout << "Cheapest non-zero traversal : " << index << endl;

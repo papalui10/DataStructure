@@ -44,8 +44,8 @@ template <class Type>
 BinaryTreeNode<Type> :: BinaryTreeNode(Type data) : Node<Type>(data)
 {
     root = nullptr;
-    left = nullptr;
-    right = nullptr;
+    leftChild = nullptr;
+    rightChild = nullptr;
 }
 
 template <class Type>

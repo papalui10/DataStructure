@@ -13,33 +13,33 @@ void Controller :: start()
 {
     cout << "Welcome to the Data Structures App." << endl;
     testGraphTester();
-    //testCircularTester();
-    //testLinearTester();
-    //testLinkedList();
-    //usingNodes();
-    //testFiles();
-    //testLinear();
+    testCircularList();
+    testLinearTester();
+    testLinkedList();
+    usingNodes();
+    testFiles();
+    testLinear();
 }
 
-//void Controller :: testCircularList()
-//{
-   // CircularList<int>myCl;
-   // myCl.add(1);
-   // myCl.add(2);
-   // myCl.add(3);
-   // myCl.add(4);
+void Controller :: testCircularList()
+{
+    CircularList<int>myCl;
+    myCl.add(1);
+    myCl.add(2);
+    myCl.add(3);
+    myCl.add(4);
     
-   // myCl.addAtIndex(0,10);
-   // myCl.addAtIndex(1, 20);
-   // myCl.addAtIndex(2, 30);
+    myCl.addAtIndex(0,10);
+    myCl.addAtIndex(1, 20);
+    myCl.addAtIndex(2, 30);
     
-   // myCl.remove(4);
+    myCl.remove(4);
     
-   // for(int i = 0; i < myCl.getSize(); i++)
-   // {
-       // cout << "Index : " << i << " Element : " << myCl.getFromIndex(i) << endl;
-   // }
-//}
+    for(int i = 0; i < myCl.getSize(); i++)
+  {
+        cout << "Index : " << i << " Element : " << myCl.getFromIndex(i) << endl;
+    }
+}
 
 void Controller :: usingNodes()
 {
