@@ -12,7 +12,7 @@
 #include "../Nodes/DoubleNode.hpp"
 
 template <class Type>
-class CirculateList : public Node<Type>
+class CircularList : public Node<Type>
 {
 private:
     DoubleNode<Type> * front;
@@ -139,7 +139,7 @@ void CircularList<Type> :: addAtIndex(int index, Type item)
 }
 
 template <class Type>
-Type CircularListy<Type> :: getFromIndex(int index)
+Type CircularList<Type> :: getFromIndex(int index)
 {
     assert (index >= 0 && index < this->size);
     DoubleNode<Type> * holder = findNode(index);
@@ -147,7 +147,7 @@ Type CircularListy<Type> :: getFromIndex(int index)
 }
 
 template <class Type>
-Type CircularList<Type> :: removed(int index)
+Type CircularList<Type> :: remove(int index)
 {
     assert (index >= 0 && index < this->size);
     
