@@ -57,13 +57,13 @@ void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
 template <class Type>
 void BinaryTreeNode<Type> :: setRightChild(BinaryTreeNode<Type> * right)
 {
-    this->right = right;
+    this->rightChild = right;
 }
 
 template <class Type>
 void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
 {
-    this->left = left;
+    this->leftChild = left;
 }
 
 
